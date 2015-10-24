@@ -4,7 +4,226 @@
  *
  * Site Styles
  *****************************************************************************/
-
+@import url(https://fonts.googleapis.com/css?family=Chewy);
  html {
-     color: green;
+	 background-color: #F0E68C;
  }
+
+.header {
+	background-image:url('/img/official_header.png');
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 1120px;
+	border-radius: 50px;
+	border: solid;
+	border-color:green;
+	margin-left: 85px;
+}
+
+.header p {
+	 color: #228B22;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+	padding-top: 0px;
+	font-size: 25px;
+}
+h1  {
+    color: #228B22;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+	padding-left: 580px;
+	padding-top: 260px;
+	font-size: 25px;
+	padding-bottom:0px;
+}
+	.main-nav {
+		margin:0;
+		padding: 0;
+		list-style:none;
+	}
+	.main-nav li {
+		width: 5px;
+		display:inline-block;
+		text-align:center;
+		padding-top: 0;
+		padding-left: 50px;
+		padding-right: 100px;
+	}
+.main-nav .watch {
+	padding-left: 580px;
+}
+
+	.main-nav a:hover {
+	color:magenta;
+	}
+.main-nav a  {
+    padding: 4px 20px;
+    background: #9ACD32;
+    border: 1px solid;
+    border-color: #AAAAAA #000000 #000000 #AAAAAA;
+	border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+	font-family: 'Chewy', cursive;
+}
+
+#social {
+ position: fixed;
+  right: 0;
+  top: 50%;
+  width: 70px;
+	height: 300px;
+  margin-top: -2.0em; 
+	background-color: #9ACD32;
+	border-style: dashed;
+	border-radius: 20px;
+	border-color: green;
+	border-right: none;
+	
+}
+#social h2 {
+	text-align: center;
+	color: #228B22;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+	padding-bottom: 0;
+}
+
+.social-links img {
+	height: 50px;
+	width: 50px;
+	}
+.social-links img:hover {
+	 width: 55px;
+	height: 55px;
+    -webkit-transition: width .4s, height .4s; /* Safari */
+    transition: width .4s, height .4s;
+}
+
+.social-links li {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+	border-width: 0;
+}
+ul.social-links  {
+	padding-left: 12px;
+}
+
+.weybec-people li {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	padding-right: 20px;
+}
+	.weybec-people img {
+		height: 200px;
+		width: 200px;
+		border-style: dotted;
+		border-color: green;
+		border-radius: 25px;
+		margin-right: 15px;
+	}
+ul.weybec-people {
+	padding-left: 0;
+	margin-left: 0;
+}
+.download-button img {
+	height: 70px;
+	width: 70px;
+	padding-left: 20px;
+}
+.download-button img:hover {
+	 width: 75px;
+	height: 75px;
+    -webkit-transition: width .4s, height .4s; /* Safari */
+    transition: width .4s, height .4s;
+}
+#about {
+	border-top-style: dotted;
+	border-top-color: green;
+	padding: 20px;
+	font-family: 'Chewy', cursive;
+	padding-right: 70px;
+}
+.lead {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	text-shadow: 0 5px 5px #9C9C9C; 
+}
+.lead:first-letter {
+	color: magenta;
+	font-size: 1.3em;
+}
+#about video {
+	border-style: dashed;
+	border-radius: 20px;
+	border-color: green;
+	padding: 5px;
+	background-color: #9ACD32;
+}
+#watch {
+	border-top-style: dotted;
+	border-top-color: green;
+	font-family: 'Chewy', cursive;
+	padding: 20px;
+	padding-top: 0;
+	margin-top: 20px;
+}
+
+#watch h2 img {
+	border-radius: 25px;
+	border-color: green;
+	border-width: 3px;
+	border-style: solid;
+	margin-top: 0;
+}
+#watch video {
+	border-style: dashed;
+	border-radius: 20px;
+	border-color: green;
+	padding-top: 5px;
+	padding-bottom:5px;
+	background-color: #9ACD32;
+}
+#listen {
+	border-top-style: dotted;
+	border-top-color: green;
+	font-family: 'Chewy', cursive;
+	padding: 20px;
+}	
+#listen h2 img {
+	border-radius: 25px;
+	border-color: green;
+	border-width: 3px;
+	border-style: solid;
+	margin-top: 0;
+}
+#listen audio {
+	border-style: dashed;
+	border-radius: 20px;
+	border-color: green;
+	padding-top: 5px;
+	padding-bottom:5px;
+	background-color: #9ACD32;
+}
+#about h2 img {
+	border-radius: 25px;
+	border-color: green;
+	border-width: 3px;
+	border-style: solid;
+	margin-top: 0;
+} 
+.footer {
+	border-top-style: dotted;
+	border-top-color: green;
+	margin: 10px 0;
+	padding: 20px;
+	font-family: 'Chewy', cursive;
+	text-align: center;
+	background-color: #FFE4C4;
+}
+a:link {
+	color:#228B22;
+}
+a:hover {
+	color:magenta;
+}
